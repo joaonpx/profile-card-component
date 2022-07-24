@@ -1,0 +1,119 @@
+/* ============================== general ================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--dark-cyan);
+
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: var(--very-dark-desaturated-blue);
+
+  font-size: 1.6rem;
+}
+
+hr {
+  width: 100%;
+
+  color: var(--dark-gray);
+  opacity: 0.5;
+
+  margin-block: 2.2rem;
+}
+
+/* ============================== profile ================================== */
+.profile-container {
+  width: 30rem;
+  height: 30rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: #fff;
+
+  border-radius: 1.5rem;
+}
+
+.bg-pattern-card {
+  width: 100%;
+
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.profile-content {
+  width: 100%;
+
+  position: relative;
+  bottom: 5rem;
+}
+
+.profile-image {
+  width: 10rem;
+
+  border-radius: 5rem;
+  border: 0.3rem solid #fff;
+}
+
+.profile-info h2 {
+  margin: 1.6rem 0 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-info span {
+  margin-left: 1rem;
+
+  font-weight: 400;
+}
+
+.profile-info p {
+  color: var(--dark-grayish-blue);
+
+  font-size: 1.3rem;
+}
+
+.profile-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-bottom: 2.2rem;
+}
+
+.profile-stats h2 {
+  margin-bottom: 0.5rem;
+
+  font-size: 1.7rem;
+}
+
+.profile-stats p {
+  letter-spacing: 0.2rem;
+
+  font-size: 0.9rem;
+}
