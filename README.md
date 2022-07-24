@@ -1,4 +1,4 @@
-<!-- <h1 align="center">
+<h1 align="center">
   👤 <b>Profile card component challenge</b>
 </h1>
 
@@ -22,4 +22,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Author
 
 - Website - [Npx](https://npxlinks.vercel.app)
-- Frontend Mentor - [@npx08](https://www.frontendmentor.io/profile/npx08) -->
+- Frontend Mentor - [@npx08](https://www.frontendmentor.io/profile/npx08)
