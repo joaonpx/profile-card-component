@@ -21,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   background: var(--dark-cyan);
 
@@ -116,4 +117,18 @@ hr {
   letter-spacing: 0.2rem;
 
   font-size: 0.9rem;
+}
+
+/* ======================== footer ==================================== */
+
+.attribution {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 1.1rem;
+
+  margin-top: 8rem;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+
+  text-decoration: none;
 }
