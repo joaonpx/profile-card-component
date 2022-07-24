@@ -17,7 +17,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## 🔍 Demo
 
-- **[Profile card component challenge]()**
+- **[Profile card component challenge](https://profilecardcomponentchallengesolution.vercel.app/)**
 
 ## Author
 
